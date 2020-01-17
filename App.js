@@ -11,7 +11,7 @@ export default function App() {
       <Text style={{ fontSize: 30 }}>Привет, {text}!!!!</Text>
       <Text>Как дела?</Text>
 
-      <Button title="Поменять на Витя" onPress={handleChange} />
+      <Button title={`Поменять на ${text === 'Мир' ? "Витя" : 'Мир'}`} onPress={handleChange} />
     </View>
   );
 }
