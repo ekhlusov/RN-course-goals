@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={{ fontSize: 30 }}>Привет {text}!!!!</Text>
+      <Text style={{ fontSize: 30 }}>Привет, {text}!!!!</Text>
       <Text>Как дела?</Text>
 
       <Button title="Поменять на Витя" onPress={handleChange} />
